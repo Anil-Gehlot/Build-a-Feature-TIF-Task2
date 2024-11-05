@@ -103,7 +103,6 @@ const RequisitionDetailsForm: React.FC<{ onNextTab: () => void }> = ({ onNextTab
           error={errors.gender}
           touched={touched.gender}
           value={values.gender}
-          zIndex="10"
         />
         <FormSelect
           label="Urgency"
